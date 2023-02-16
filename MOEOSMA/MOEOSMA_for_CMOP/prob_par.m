@@ -2,7 +2,7 @@ function par = prob_par(prob_k)
 % prob_k -> Index of problem
 % par.n  -> Dimension of problem
 % par.fn -> Number of objective
-% par.g  -> Number of inequility constraints
+% par.g  -> Number of inequality constraints
 % par.h  -> Number of equality constraints
 % par.xmin -> lower bound of decision variables
 % par.xmax -> upper bound of decision variables
