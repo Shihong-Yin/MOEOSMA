@@ -1,7 +1,7 @@
 function Positions = initialization(SearchAgents_no,dim,ub,lb)
 % This function initialize the first population of search agents
 Boundary_no = size(ub,2); % Numnber of boundaries
-% If the boundaries of all variables are equal and user enter a signle
+% If the boundaries of all variables are equal and user enter a single
 % Number for both ub and lb
 if Boundary_no == 1
     Positions = rand(SearchAgents_no,dim).*(ub-lb)+lb;
